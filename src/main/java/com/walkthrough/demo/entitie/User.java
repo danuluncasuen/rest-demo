@@ -1,0 +1,14 @@
+package com.walkthrough.demo.entitie;
+
+import lombok.Data;
+
+@Data
+public class User {
+
+    private int id;
+
+    private String name;
+
+    private int age;
+
+}
